@@ -42,6 +42,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 KBreakout is a Breakout-like game. Its object is to destroy as many
 bricks as possible without losing the ball.
 
+%description -l pl.UTF-8
+KBreakout is grą typu Breakout. Celem gry jest zniszczenie tak dużo
+cegieł jak to możliwe bez utraty piłki.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
